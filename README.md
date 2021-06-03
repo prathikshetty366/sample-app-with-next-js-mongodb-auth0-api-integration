@@ -1,12 +1,17 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/zeit/next.js/tree/canary/packages/create-next-app).
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/prathikshetty366/sample-app-with-next-js-mongodb-auth0-api-integration).
 
-Update the `next.config.js` file with your mongodb connection string.
+Update the `.env` file with your mongodb connection string.
 
 ```js
 
 module.exports = {
     env: {
-        MONGO_URI: "Your connection string"
+ MONGO_URI: "Your connection string"
+ AUTH0_SECRET='use [openssl rand -hex 32] to generate a 32 bytes value'
+AUTH0_BASE_URL='http://localhost:3000'
+AUTH0_ISSUER_BASE_URL='https://YOUR_DOMAIN'
+AUTH0_CLIENT_ID='YOUR_CLIENT_ID'
+AUTH0_CLIENT_SECRET='YOUR_CLIENT_SECRET'
     }
 }
 
@@ -33,10 +38,5 @@ To learn more about Next.js, take a look at the following resources:
 - [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/zeit/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on ZEIT Now
-
-The easiest way to deploy your Next.js app is to use the [ZEIT Now Platform](https://zeit.co/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
