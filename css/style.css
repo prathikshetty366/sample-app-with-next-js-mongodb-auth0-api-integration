@@ -1,0 +1,92 @@
+h1 {
+  text-align: center;
+}
+
+.wrapper {
+  max-width: 1200px;
+  padding: 0 16px;
+  margin: auto;
+}
+
+.navbar {
+  padding: 20px;
+  margin-bottom: 20px;
+  background: #008cba;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.navbar .create {
+  color: #fff;
+  font-size: 1.5rem;
+  justify-content: flex-end;
+}
+.navbar .people {
+  color: #fff;
+  font-size: 1.5rem;
+}
+.navbar .Self {
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+.navbar .navbar-brand {
+  color: #fff;
+  font-size: 2rem;
+}
+
+.navbar-brand:hover,
+.create:hover {
+  color: #fff;
+}
+
+.form-container {
+  width: 400px;
+  margin: 20px auto;
+}
+
+.note-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+.people {
+  text-align: center;
+  display: inline;
+}
+
+.visit {
+  text-align: center;
+  display: grid;
+  grid-gap: 10px;
+  color: black;
+}
+
+.login {
+  align-items: center;
+  text-align: center;
+  flex-direction: row;
+}
+
+.loginout {
+  font-weight: bold;
+  font-size: larger;
+  align-items: center;
+  text-align: center;
+}
+
+.profile-container {
+  align-items: center;
+  align-content: center;
+  margin-left: 40%;
+}
+.notes-container {
+  margin-top: 20px;
+}
